@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "aml-innov-bpid-810834",
+  "private_key_id": "ad0de1b9299a14eac84d090731d10fe64215ee80",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCpgnd7y6b0u8w2\niBfRnJjndFF7BLuU3r3s8l7umZ+1BgBqh5txh06M/IvG0LCIx7H50d6U8Z3WDSK0\nEVqFAjNLy8kk5ZEMf7uyMAvBjC1v8UGwyvBun4BF9sGN0QFCRSBisdN5dVd949yW\niz4C8wUDIurCjYOHwMZOUv+rctRGfVcYnqhg8hNyxUdUC5bu6Y067CeUNwB39TRc\nixobaNvLp0T1wAVIs0AW+b2/XSm0ltFFLBwjBaoruStArF05WZYbtx2GT1qjVe+4\nmAVU1PIr7tNmVBClAHt84YMtAxtSH1rlVmRxLco8iSiezphPAPedYO9Wfwm8LlJY\nubTHf+INAgMBAAECggEAAKVvVhQJCA9SoFWYY6a8oktClHaIgYq82VNBbEu+vMZ8\nu2s9B9Ie4rFp/GeaXxcfaFPcWZ+3MC3FV1lM/OTs5z0FmgpCNifWTxmMSrnBiMor\nOJf5eGGx/NiyCBvT7NnNg9rO/9XkIyYUFsKjb9VXcrNDU/UNDpHI7I6eWQJVAvGU\nGMllja+7EFiajZfq746PIIm3Wyg+cxnOcDUXhJ9l3HV9xHXfz/zwLqVVO5f24Rz1\nx8OwYf8MUV6y3FSOySxxw6k/37Kbt5/AqWqiEhC1AtsrJ+CslguWH/utViGoZ9Be\nQGIdn/2W9OdX0we8nUOkaI9DjKHGm5r56ZJIdkBtcQKBgQDUO6HO/kdQ2XkriR6q\nHlin2N2GDfr0IOCVs/jGDB/ubc9CSwoDR/nBcZCp8hNg2kdoPuvdfkkIjdkly15Q\nh8QjlQAd6fIR8gcDdm4ZSJJLrxk4m9ld1YLRCRnsURbBR7EnCScQNH/aejVqrRoZ\n/1uMS2bhCt7Nd8X4OAYc0CrOvQKBgQDMd1pAvC7vZfIzDen5mOIqFiPYuiGbLUUl\ne9D1HUEoHwhLQk+tNA6elEirkkX4UMQ5GTzdyADOEQZcn40mOcZ80WUlrZilIYjU\nAbiCqv7/qrToQXUmxumJfapD6GDQALk9YzYiYhAY9JWyzaCR+5HgiMVUiXyj+j3q\nMOUmm7D9kQKBgAv4EPgLfxogKaU65m/Rpk5Q/K1CvJRoBkJrE+yXYnWf28BxWu80\nb/Fo5i+vZ0hfBwfqBINJS/Ufis+G2JrSDU20aX1GZFB+xcZ8N1lVrmp2RYXbxDZ2\nhBol2UBqkk30LRl2eq1/SHaZzclmWcJ9lDwlRHgMlOQhjRiikDWvx7pBAoGAROCL\n4bTC5thjz3kHcZJj1aOhrbd97KVCXs8n4/pX4akahSewaXtY1WjEVi+vLGggwc9T\npq5iPwiTKQ6CYPcjexaaySeCfVYfnrN5sWLjBcM+r+KlEUv+jddsTPXx7v/fZuON\n7+Uy4QU7jIEibyrcyFOqjcDG4QJCayrPdsMJy1ECgYBqkJa5eITuz3z6EW3A6K7z\nwQXB04CjVllt9WvZWrEUy4mjgHouYXPTGdGpBT0mqDJ6TDJWXGgRCMyn/XOBDWkB\nTBbkp8DqaYeh2Zz8pYarYVbXMLcsSNkJBHM4WfqWYM8atWWP9yntZ50SLbnfB2TU\nXytrFOzoImhvNENsZ6EheA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "infra-build@aml-innov-bpid-810834.iam.gserviceaccount.com",
+  "client_id": "106438072819126629939",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/infra-build%40aml-innov-bpid-810834.iam.gserviceaccount.com"
+}

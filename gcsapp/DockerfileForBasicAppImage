@@ -1,0 +1,30 @@
+#FROM gcr.io/aml-innov-bpid-810834/spark-operator-withgcs
+# CAN not be spark-operator-withgcs
+FROM gcr.io/spark-operator/spark-py:v3.1.1
+# Downloading gcloud package
+#
+
+
+ENV APP_HOME /home/infra-build/myapp
+WORKDIR $APP_HOME
+COPY . /opt/spark/examples/src/main/python/
+
+USER root
+ADD https://storage.googleapis.com/hadoop-lib/gcs/gcs-connector-hadoop2-2.0.1.jar $SPARK_HOME/jars
+RUN chmod 644 $SPARK_HOME/jars/gcs-connector-hadoop2-2.0.1.jar
+
+USER root
+RUN apt-get update -y
+
+RUN apt-get install -y python
+
+USER ${spark_uid}
+ADD https://dl.google.com/dl/cloudsdk/release/google-cloud-sdk.tar.gz /tmp
+
+ENV PATH $PATH:/usr/local/bin
+RUN mkdir -p /usr/local/gcloud \
+    && tar -C /usr/local/gcloud -xvf /tmp/google-cloud-sdk.tar.gz \
+        && /usr/local/gcloud/google-cloud-sdk/install.sh  --quiet
+
+ENV PATH $PATH:/usr/local/gcloud/google-cloud-sdk/bin
+#
