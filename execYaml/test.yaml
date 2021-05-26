@@ -19,7 +19,7 @@
 apiVersion: "sparkoperator.k8s.io/v1beta2"
 kind: SparkApplication
 metadata:
-  name: test-app
+  name: test-app-v3
   namespace: default
 spec:
   type: Python
@@ -27,7 +27,7 @@ spec:
   mode: cluster
   image: "gcr.io/aml-innov-bpid-810834/gcsjobapp-gke"
   imagePullPolicy: Always
-  mainApplicationFile: local:///opt/spark/examples/src/main/python/dbBasic.py
+  mainApplicationFile: local:///opt/spark/examples/src/main/python/main.py
   sparkVersion: "3.0.0"
   hadoopConf:
     fs.gs.impl: com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem
