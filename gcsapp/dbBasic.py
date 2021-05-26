@@ -19,7 +19,7 @@ if __name__ == "__main__":
         .config("spark.some.config.option", "some-value") \
         .enableHiveSupport() \
         .getOrCreate()
-    spark.sql("CREATE DATABASE IF NOT EXISTS myDB LOCATION 'gs://ravinuodb-bucket/temp'")
+    spark.sql("CREATE DATABASE IF NOT EXISTS myDB LOCATION 'gs://proteus-bucket/temp'")
     print("==========================================1=")
     spark.sql("use myDB")
     print("==========================================2=")
