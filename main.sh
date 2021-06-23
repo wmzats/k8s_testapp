@@ -17,8 +17,6 @@ HQL_PATH="\/opt\/spark\/examples\/src\/main\/python\/ucmifs-test\/source\/ddl\/"
 YAML_TEMPLATE="/home/infra-build/k8s_onegoapp/proteus.yaml"
 YAML_PATH="/home/infra-build/k8s_onegoapp/"
 
-gcloud auth activate-service-account aml-innov-bpid-810834@appspot.gserviceaccount.com --key-file=/home/infra-build/aml-innov.json;
-
 #echo $CONFIG_FILE_WITH_FULL_PATH
 #echo $POD_NAME_PREFIX
 a=0
